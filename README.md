@@ -87,8 +87,6 @@ Consulted for an AI-first startup to cut LLM API costs by ~40% and harden safety
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
-
 <div align="center">
 
 <picture>
