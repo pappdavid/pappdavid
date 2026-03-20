@@ -1,0 +1,147 @@
+# README Cyberpunk Neon Flair Implementation Plan
+
+> **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
+
+**Goal:** Add cyberpunk neon visual flair (animated waves, jokes card, trophies, carbon snippet, snake) to the existing README without altering any content.
+
+**Architecture:** Single file replacement — overwrite `README.md` with identical content wrapped in new visual elements. No external assets to generate except the carbon snippet (handled inline via carbon.now.sh URL). All services used are GitHub-safe SVG/image APIs.
+
+**Tech Stack:** capsule-render, readme-jokes, github-profile-trophy, carbon.now.sh, github-contribution-grid-snake
+
+---
+
+### Task 1: Rewrite README.md with all flair elements
+
+**Files:**
+- Modify: `README.md`
+
+**Step 1: Overwrite README.md with this exact content**
+
+```markdown
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D1A,50:7C3AED,100:06B6D4&height=120&section=header" width="100%" />
+
+<div align="center">
+
+# David Papp
+
+**AI Engineering Student · VU Amsterdam**
+
+Building production-quality LLM tools: agent observability, fine-tuning pipelines, retrieval systems.
+Consulted for an AI-first startup to cut LLM API costs by ~40% and harden safety controls.
+
+[Portfolio](https://davidpapp.dev) · [LinkedIn](https://www.linkedin.com/in/d%C3%A1vid-papp) · [Email](mailto:contact@davidpapp.dev)
+
+<br/>
+
+[![Jokes Card](https://readme-jokes.vercel.app/api?theme=dark&hideBorder=true&bgColor=%230D0D1A&textColor=%23C4B5FD&questionColor=%23A78BFA&answerColor=%2306B6D4)](https://github.com/ABSphreak/readme-jokes)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+
+### About
+
+- 🎓 2nd-year BSc Artificial Intelligence at **Vrije Universiteit Amsterdam**
+- 🔧 Consulted for an AI-first startup: restructured LLM backend architecture, hardened prompt injection defenses
+- 🏗️ Lead technical delivery in 4–5 person hackathon and rapid-build teams
+- 📍 Based in Rotterdam, NL — looking for junior AI/automation or data science roles
+- 🐍 Strongest in Python; working proficiency in TypeScript
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+
+### Projects
+
+| Project | What it does | Stack |
+|---------|-------------|-------|
+| [**MCP Sentinel**](https://davidpapp.dev/mcp) | Agent observability proxy — logs, guards, and audits every LLM tool call | TypeScript · Supabase · Upstash Redis |
+| [**Training Pipeline**](https://davidpapp.dev/training) | AST-aware codebase→LoRA fine-tuning with ~3x better data quality | Python · HuggingFace · LoRA/PEFT |
+| [**RAG + 3D Chat**](https://davidpapp.dev/chat) | Document Q&A with pgvector search, reranking, and Three.js rendering | Next.js · OpenAI API · pgvector |
+
+<div align="center">
+
+[![MCP Sentinel snippet](https://carbon.now.sh/svg?bg=rgba(13%2C13%2C26%2C1)&t=one-dark&wt=none&l=application%2Ftypescript&ds=false&wc=false&wa=true&pv=16px&ph=16px&ln=false&fl=1&fm=Fira%20Code&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=proxy.on(%27tool_call%27%2C%20async%20(call)%20%3D%3E%20%7B%0A%20%20await%20logger.record(%7B%20tool%3A%20call.name%2C%20args%3A%20call.args%20%7D)%3B%0A%20%20if%20(await%20guard.isBlocked(call))%20throw%20new%20GuardError(call)%3B%0A%20%20return%20upstream.forward(call)%3B%0A%7D)%3B)](https://davidpapp.dev/mcp)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+
+### Tech Stack
+
+**Languages**
+<p>
+  <img src="https://skillicons.dev/icons?i=py,ts,js&theme=dark" height="28" />
+</p>
+
+**AI / ML**
+<p>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" height="28" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/CrewAI-000?style=flat-square&logoColor=white" height="28" />
+</p>
+
+**Backend & Data**
+<p>
+  <img src="https://skillicons.dev/icons?i=django,fastapi,postgres,redis,docker&theme=dark" height="28" />
+  <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" height="28" />
+</p>
+
+**Frontend & Infra**
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vercel,supabase&theme=dark" height="28" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/Hetzner-D50C2D?style=flat-square&logo=hetzner&logoColor=white" height="28" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+
+### GitHub Stats
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=pappdavid&theme=darkhub&no-frame=true&no-bg=true&column=6&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
+
+<img src="https://github-readme-stats.vercel.app/api?username=pappdavid&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD" height="150" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pappdavid&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&text_color=C4B5FD" height="150" />
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pappdavid/pappdavid/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pappdavid/pappdavid/output/github-contribution-grid-snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/pappdavid/pappdavid/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:7C3AED,100:0D0D1A&height=120&section=footer" width="100%" />
+```
+
+**Step 2: Verify the file looks correct**
+
+Read back `README.md` and confirm:
+- First line is the capsule-render header wave `<img>`
+- readme-jokes card is inside the header `<div>`
+- 4 slim rect dividers separate the 5 sections
+- Carbon snippet appears between Projects table and Tech Stack
+- Trophies appear above the stats cards
+- Snake `<picture>` block appears before footer wave
+- Last line is the capsule-render footer wave `<img>`
+
+**Step 3: Commit**
+
+```bash
+git -C /Users/davidpapp/pappdavid add README.md
+git -C /Users/davidpapp/pappdavid commit -m "feat: add cyberpunk neon flair — waves, jokes, trophies, carbon snippet, snake"
+```
+
+**Step 4: Push**
+
+```bash
+git -C /Users/davidpapp/pappdavid push origin main
+```
