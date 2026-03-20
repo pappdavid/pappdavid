@@ -7,7 +7,7 @@
 Building production-quality LLM tools: agent observability, fine-tuning pipelines, retrieval systems.
 Consulted for an AI-first startup to cut LLM API costs by ~40% and harden safety controls.
 
-[Portfolio](https://davidpapp.dev) · [LinkedIn](https://www.linkedin.com/in/dávid-papp) · [Email](mailto:contact@davidpapp.dev)
+[Portfolio](https://davidpapp.dev) · [LinkedIn](https://www.linkedin.com/in/d%C3%A1vid-papp) · [Email](mailto:contact@davidpapp.dev)
 
 </div>
 
@@ -37,7 +37,7 @@ Consulted for an AI-first startup to cut LLM API costs by ~40% and harden safety
 
 **Languages**
 <p>
-  <img src="https://skillicons.dev/icons?i=py,ts,js&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=py,ts,js&theme=dark" height="28" />
 </p>
 
 **AI / ML**
@@ -50,14 +50,14 @@ Consulted for an AI-first startup to cut LLM API costs by ~40% and harden safety
 
 **Backend & Data**
 <p>
-  <img src="https://skillicons.dev/icons?i=django,fastapi,postgres,redis,docker&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=django,fastapi,postgres,redis,docker&theme=dark" height="28" />
   <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" height="28" />
   <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" height="28" />
 </p>
 
 **Frontend & Infra**
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vercel,supabase&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vercel,supabase&theme=dark" height="28" />
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" height="28" />
   <img src="https://img.shields.io/badge/Hetzner-D50C2D?style=flat-square&logo=hetzner&logoColor=white" height="28" />
 </p>
