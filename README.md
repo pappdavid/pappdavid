@@ -76,14 +76,21 @@ Consulted for an AI-first startup to cut LLM API costs by ~40% and harden safety
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
 
-### GitHub Stats
+### GitHub Trophies
 
 <div align="center">
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=pappdavid&theme=darkhub&no-frame=true&no-bg=true&column=6&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
 
-<img src="https://github-readme-stats.vercel.app/api?username=pappdavid&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&icon_color=7C3AED&text_color=C4B5FD" height="150" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pappdavid&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D0D1A&title_color=A78BFA&text_color=C4B5FD" height="150" />
+</div>
+
+### Currently Building
+
+<div align="center">
+
+[![MCP Sentinel](https://img.shields.io/badge/🔨_MCP_Sentinel-Agent_Observability_Proxy-7C3AED?style=flat-square&logoColor=white)](https://davidpapp.dev/mcp)
+[![Training Pipeline](https://img.shields.io/badge/🔨_Training_Pipeline-LoRA_Fine--tuning_Engine-06B6D4?style=flat-square&logoColor=white)](https://davidpapp.dev/training)
+[![RAG + 3D Chat](https://img.shields.io/badge/🔨_RAG_+_3D_Chat-pgvector_+_Three.js-A78BFA?style=flat-square&logoColor=white)](https://davidpapp.dev/chat)
 
 </div>
 
