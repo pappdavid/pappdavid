@@ -4,7 +4,7 @@
 
 # David Papp
 
-**AI Engineering Student · VU Amsterdam**
+**AI solution developer**
 
 Building production-quality LLM tools: agent observability, fine-tuning pipelines, retrieval systems.
 Consulted for an AI-first startup to cut LLM API costs by ~40% and harden safety controls.
@@ -24,8 +24,8 @@ Consulted for an AI-first startup to cut LLM API costs by ~40% and harden safety
 - 🎓 2nd-year BSc Artificial Intelligence at **Vrije Universiteit Amsterdam**
 - 🔧 Consulted for an AI-first startup: restructured LLM backend architecture, hardened prompt injection defenses
 - 🏗️ Lead technical delivery in 4–5 person hackathon and rapid-build teams
-- 📍 Based in Rotterdam, NL — looking for junior AI/automation or data science roles
-- 🐍 Strongest in Python; working proficiency in TypeScript
+- 📍 AI engineer based in Rotterdam, NL — open to full-time from July 2026
+- 🐍 Strongest in Python; working proficiency in TypeScript and Rust
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
 
@@ -33,15 +33,11 @@ Consulted for an AI-first startup to cut LLM API costs by ~40% and harden safety
 
 | Project | What it does | Stack |
 |---------|-------------|-------|
-| [**MCP Sentinel**](https://davidpapp.dev/mcp) | Agent observability proxy — logs, guards, and audits every LLM tool call | TypeScript · Supabase · Upstash Redis |
-| [**Training Pipeline**](https://davidpapp.dev/training) | AST-aware codebase→LoRA fine-tuning with ~3x better data quality | Python · HuggingFace · LoRA/PEFT |
-| [**RAG + 3D Chat**](https://davidpapp.dev/chat) | Document Q&A with pgvector search, reranking, and Three.js rendering | Next.js · OpenAI API · pgvector |
-
-<div align="center">
-
-[![MCP Sentinel snippet](https://carbon.now.sh/svg?bg=rgba(13%2C13%2C26%2C1)&t=one-dark&wt=none&l=application%2Ftypescript&ds=false&wc=false&wa=true&pv=16px&ph=16px&ln=false&fl=1&fm=Fira%20Code&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=proxy.on(%27tool_call%27%2C%20async%20(call)%20%3D%3E%20%7B%0A%20%20await%20logger.record(%7B%20tool%3A%20call.name%2C%20args%3A%20call.args%20%7D)%3B%0A%20%20if%20(await%20guard.isBlocked(call))%20throw%20new%20GuardError(call)%3B%0A%20%20return%20upstream.forward(call)%3B%0A%7D)%3B)](https://davidpapp.dev/mcp)
-
-</div>
+| [**AGENTSEC**](https://github.com/pappdavid/agentsec-hook-pack) | AI agent security platform gating risky tool calls with 100% human-in-the-loop audit logs | Next.js · MCP Protocol · Policy Engine |
+| [**AGENT_CLI.rust**](https://github.com/pappdavid/agent-cli-mcp-rust) | Multi-agent orchestration CLI — Claude/Gemini drive subprocess agents with 0% context bloat | Rust · MCP Protocol · JSON-RPC |
+| [**SKILL_INJ.rs**](https://github.com/pappdavid/antigravity-skill-injector) | Dynamic skill injector saving 97% of context window tokens in the Antigravity Desktop App | Rust · Python · Dynamic Loading |
+| [**THESYS_C1**](https://github.com/pappdavid/thesys-c1-dashboard) | Generative UI telemetry dashboard tracking real-time agent execution latency and user click paths | Next.js · TypeScript · Recharts |
+| **SAAS_CORE** 🔒 | Shared auth, billing, and usage layer powering 5+ micro-SaaS products with Stripe metered billing and Supabase RLS | Next.js 16 · Clerk · Stripe · Prisma · Supabase |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
 
@@ -49,7 +45,7 @@ Consulted for an AI-first startup to cut LLM API costs by ~40% and harden safety
 
 **Languages**
 <p>
-  <img src="https://skillicons.dev/icons?i=py,ts,js&theme=dark" height="28" />
+  <img src="https://skillicons.dev/icons?i=py,ts,js,rust&theme=dark" height="28" />
 </p>
 
 **AI / ML**
@@ -57,21 +53,21 @@ Consulted for an AI-first startup to cut LLM API costs by ~40% and harden safety
   <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" height="28" />
   <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" height="28" />
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/CrewAI-000?style=flat-square&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/MCP_Protocol-000?style=flat-square&logoColor=white" height="28" />
 </p>
 
 **Backend & Data**
 <p>
   <img src="https://skillicons.dev/icons?i=django,fastapi,postgres,redis,docker&theme=dark" height="28" />
-  <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" height="28" />
 </p>
 
 **Frontend & Infra**
 <p>
   <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,vercel,supabase&theme=dark" height="28" />
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/Hetzner-D50C2D?style=flat-square&logo=hetzner&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" height="28" />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
@@ -88,9 +84,9 @@ Consulted for an AI-first startup to cut LLM API costs by ~40% and harden safety
 
 <div align="center">
 
-[![MCP Sentinel](https://img.shields.io/badge/🔨_MCP_Sentinel-Agent_Observability_Proxy-7C3AED?style=flat-square&logoColor=white)](https://davidpapp.dev/mcp)
-[![Training Pipeline](https://img.shields.io/badge/🔨_Training_Pipeline-LoRA_Fine--tuning_Engine-06B6D4?style=flat-square&logoColor=white)](https://davidpapp.dev/training)
-[![RAG + 3D Chat](https://img.shields.io/badge/🔨_RAG_+_3D_Chat-pgvector_+_Three.js-A78BFA?style=flat-square&logoColor=white)](https://davidpapp.dev/chat)
+[![agentsec-hook-pack](https://img.shields.io/badge/🔨_AGENTSEC-Agent_Security_Platform-7C3AED?style=flat-square&logoColor=white)](https://github.com/pappdavid/agentsec-hook-pack)
+[![agent-cli-mcp-rust](https://img.shields.io/badge/🔨_AGENT__CLI.rust-Multi--Agent_Orchestration_CLI-06B6D4?style=flat-square&logoColor=white)](https://github.com/pappdavid/agent-cli-mcp-rust)
+[![antigravity-skill-injector](https://img.shields.io/badge/🔨_SKILL__INJ.rs-Dynamic_Skill_Injector-A78BFA?style=flat-square&logoColor=white)](https://github.com/pappdavid/antigravity-skill-injector)
 
 </div>
 
