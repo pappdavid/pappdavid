@@ -65,14 +65,6 @@ AI Solutions Developer at WEBINFORM IT Ltd and BSc Artificial Intelligence stude
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
 
-### GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=pappdavid&theme=darkhub&no-frame=true&no-bg=true&column=6&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
 ### Reference Projects
 
 <div align="center">
