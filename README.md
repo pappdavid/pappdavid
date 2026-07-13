@@ -6,7 +6,7 @@
 
 **AI Solutions Developer**
 
-Building AI-enabled web systems, agent tooling, and developer automation.
+Building AI-enabled web systems, agent infrastructure, and developer automation.
 AI Solutions Developer at WEBINFORM IT Ltd and BSc Artificial Intelligence student at Vrije Universiteit Amsterdam.
 
 [Portfolio](https://davidpapp.dev) · [LinkedIn](https://www.linkedin.com/in/d%C3%A1vid-papp) · [Email](mailto:contact@davidpapp.dev)
@@ -31,13 +31,12 @@ AI Solutions Developer at WEBINFORM IT Ltd and BSc Artificial Intelligence stude
 
 ### Projects
 
-| Project | Verified scope | Stack |
-|---------|----------------|-------|
-| [**AgentSec Hook Pack**](https://github.com/pappdavid/agentsec-hook-pack) | Pre-tool-use policy-hook prototype for AI coding agents with local allow/deny rules, approval decisions, and optional remote inspection | Node.js · Policy Hooks · HTTP |
-| [**agent-cli-mcp-rust**](https://github.com/pappdavid/agent-cli-mcp-rust) | MCP/JSON-RPC server for installed coding-agent CLIs with session management, allowed-root checks, deny rules, and output redaction | Rust · MCP · JSON-RPC |
-| [**Antigravity Skill Injector**](https://github.com/pappdavid/antigravity-skill-injector) | Proof-of-concept for serving skill documents on demand through a local MCP server and generating lightweight stubs | Rust · Python · MCP |
-| [**Thesys C1 Dashboard**](https://github.com/pappdavid/thesys-c1-dashboard) | Generative dashboard whose AI can add, remove, reorder, retitle, and switch panel types through structured commands | Next.js · TypeScript · Thesys C1 |
-| [**PromptShield**](https://github.com/pappdavid/PromptShield) | Heuristic prompt scanner and runtime action inspector with authenticated HTTP endpoints and a verified public demo | Next.js · TypeScript · Vitest |
+| Project | Implemented scope | Stack |
+|---------|-------------------|-------|
+| [**VoidArch Context**](https://github.com/VoidArch-Labs/voidarch-context) | Principal flagship: local-first repository memory, search, code graph, durable project state, and token-budgeted context packs for AI coding agents | TypeScript · SurrealKV · Tree-sitter · ONNX |
+| [**VoidArch Studio**](https://github.com/VoidArch-Labs/voidarch) | Active-development control room for coding-agent sessions with daemon-owned PTYs, worktree and session APIs, a localhost dashboard, deterministic safety hooks, and a Tauri desktop shell | TypeScript · Node.js · Rust · Tauri · xterm.js |
+| [**AgentSec Suite**](https://github.com/VoidArch-Labs/AgentSec) | Deployed AI-agent security governance suite combining deterministic runtime inspection, approval queues, PromptShield, MCP Guard, AgentMap, integration guides, and an optional copilot interface | Next.js · TypeScript · Prisma · Vitest |
+| [**saas-core**](https://github.com/VoidArch-Labs/saas-core) | Supporting modular SaaS factory with a module registry, presets, environment planning, generated contracts, dry-run scaffolding, and a reference application | Next.js · TypeScript · Prisma · GitHub Actions |
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
 
@@ -74,15 +73,14 @@ AI Solutions Developer at WEBINFORM IT Ltd and BSc Artificial Intelligence stude
 
 </div>
 
-### Verified Public Projects
+### Reference Projects
 
 <div align="center">
 
-[![agentsec-hook-pack](https://img.shields.io/badge/AGENTSEC-Policy_Hook_Prototype-7C3AED?style=flat-square&logoColor=white)](https://github.com/pappdavid/agentsec-hook-pack)
-[![agent-cli-mcp-rust](https://img.shields.io/badge/AGENT__CLI.rust-MCP_Server-06B6D4?style=flat-square&logoColor=white)](https://github.com/pappdavid/agent-cli-mcp-rust)
-[![antigravity-skill-injector](https://img.shields.io/badge/SKILL__INJ.rs-Proof_of_Concept-A78BFA?style=flat-square&logoColor=white)](https://github.com/pappdavid/antigravity-skill-injector)
-[![thesys-c1-dashboard](https://img.shields.io/badge/THESYS__C1-Generative_Dashboard-2563EB?style=flat-square&logoColor=white)](https://github.com/pappdavid/thesys-c1-dashboard)
-[![PromptShield](https://img.shields.io/badge/PromptShield-Heuristic_Scanner-DC2626?style=flat-square&logoColor=white)](https://github.com/pappdavid/PromptShield)
+[![VoidArch Context](https://img.shields.io/badge/VoidArch_Context-Local--First_Context_Engine-7C3AED?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/voidarch-context)
+[![VoidArch Studio](https://img.shields.io/badge/VoidArch_Studio-Agent_Orchestration-06B6D4?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/voidarch)
+[![AgentSec Suite](https://img.shields.io/badge/AgentSec-Security_Governance_Suite-DC2626?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/AgentSec)
+[![saas-core](https://img.shields.io/badge/saas--core-Product_Factory-2563EB?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/saas-core)
 
 </div>
 
