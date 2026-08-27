@@ -40,6 +40,31 @@ AI Solutions Developer at WEBINFORM IT Ltd and BSc Artificial Intelligence stude
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
 
+### Recruiter demos
+
+Interactive, **deterministic** demos on [davidpapp.dev](https://davidpapp.dev) (no LLM, no accounts). Personal projects stay prototypes — not production systems.
+
+| Demo | What it is |
+|------|------------|
+| [**PromptShield / AgentSec**](https://promptshield-cyan.vercel.app) | Live rule-based prompt-injection scanner (the public AgentSec surface) |
+| **Self-Interview** | The site interviews David from verified facts only; you can jump in |
+| **Task-to-Flow** | Describe a repetitive task → an illustrative automation flow. Hours are assumption sliders, not measured results |
+| **Fit-Finder** | 3-tap quiz (industry × intent × urgency) → an illustrative role lens |
+
+Self-Interview, Task-to-Flow, and Fit-Finder ship on `/roles/<id>` and `/demos/<slug>`. Company links from applications use `/?c=<company>` (audience framing only — the page does not invent facts about the company).
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+
+### Lab (private)
+
+Recent private lab work — source on request, not claimed as production:
+
+- **Unclickbaiter** — transcript-grounded YouTube title rewrite + thumbnail-honesty spec (heuristic or local LLM; no paid APIs)
+- **CS2 sticker craft optimizer** — search sticker placement/scale/rotation/wear; heuristic or local VLM scoring
+- **Active Companion** — local meeting listener → retrieval cheat-sheet UI (citations or explicit gaps)
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+
 ### Tech Stack
 
 **Languages**
