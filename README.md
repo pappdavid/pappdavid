@@ -7,7 +7,7 @@
 **AI Solutions Developer**
 
 Building AI-enabled web systems, agent infrastructure, and developer automation.
-AI Solutions Developer at WEBINFORM IT Ltd and BSc Artificial Intelligence student at Vrije Universiteit Amsterdam.
+AI Solutions Developer at WEBINFORM IT Ltd and Econometrics and Data Science student at Vrije Universiteit Amsterdam.
 
 [Portfolio](https://davidpapp.dev) · [LinkedIn](https://www.linkedin.com/in/d%C3%A1vid-papp) · [Email](mailto:contact@davidpapp.dev)
 
@@ -21,7 +21,7 @@ AI Solutions Developer at WEBINFORM IT Ltd and BSc Artificial Intelligence stude
 
 ### About
 
-- 🎓 BSc Artificial Intelligence student at **Vrije Universiteit Amsterdam**
+- 🎓 Studying Econometrics and Data Science at **Vrije Universiteit Amsterdam**; university studies began in 2024, the programme changed in September 2026, and graduation is expected in 2028
 - 🔧 AI Solutions Developer working on AI integrations, backend logic, automation, and user-facing AI features
 - 🧭 Interested in roles that combine technical implementation, product thinking, and project delivery
 - 📍 Based in the Rotterdam area, Netherlands — available for full-time work
@@ -34,7 +34,7 @@ AI Solutions Developer at WEBINFORM IT Ltd and BSc Artificial Intelligence stude
 | Project | Implemented scope | Stack |
 |---------|-------------------|-------|
 | [**VoidArch Context**](https://github.com/VoidArch-Labs/voidarch-context) | Principal flagship: local-first repository memory, search, code graph, durable project state, and token-budgeted context packs for AI coding agents | TypeScript · SurrealKV · Tree-sitter · ONNX |
-| [**VoidArch Studio**](https://github.com/VoidArch-Labs/voidarch) | Active-development control room for coding-agent sessions with daemon-owned PTYs, worktree and session APIs, a localhost dashboard, deterministic safety hooks, and a Tauri desktop shell | TypeScript · Node.js · Rust · Tauri · xterm.js |
+| [**VoidArch Studio**](https://github.com/VoidArch-Labs/voidarch-studio) | Active-development control room for coding-agent sessions with daemon-owned PTYs, worktree and session APIs, a localhost dashboard, deterministic safety hooks, and a Tauri desktop shell | TypeScript · Node.js · Rust · Tauri · xterm.js |
 | [**AgentSec Suite**](https://github.com/VoidArch-Labs/AgentSec) | Deployed AI-agent security governance suite combining deterministic runtime inspection, approval queues, PromptShield, MCP Guard, AgentMap, integration guides, and an optional copilot interface | Next.js · TypeScript · Prisma · Vitest |
 | [**saas-core**](https://github.com/VoidArch-Labs/saas-core) | Supporting modular SaaS factory with a module registry, presets, environment planning, generated contracts, dry-run scaffolding, and a reference application | Next.js · TypeScript · Prisma · GitHub Actions |
 
@@ -95,7 +95,7 @@ Recent private lab work — source on request, not claimed as production:
 <div align="center">
 
 [![VoidArch Context](https://img.shields.io/badge/VoidArch_Context-Local--First_Context_Engine-7C3AED?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/voidarch-context)
-[![VoidArch Studio](https://img.shields.io/badge/VoidArch_Studio-Agent_Orchestration-06B6D4?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/voidarch)
+[![VoidArch Studio](https://img.shields.io/badge/VoidArch_Studio-Agent_Orchestration-06B6D4?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/voidarch-studio)
 [![AgentSec Suite](https://img.shields.io/badge/AgentSec-Security_Governance_Suite-DC2626?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/AgentSec)
 [![saas-core](https://img.shields.io/badge/saas--core-Product_Factory-2563EB?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/saas-core)
 
