@@ -40,18 +40,20 @@ AI Solutions Developer at WEBINFORM IT Ltd and Econometrics and Data Science stu
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
 
-### Recruiter demos
+### Hosted product showcases
 
-Interactive, **deterministic** demos on [davidpapp.dev](https://davidpapp.dev) (no LLM, no accounts). Personal projects stay prototypes — not production systems.
+Six independently hosted product showcases are available to try. Their public sample workflows use synthetic or visitor-supplied data; optional AI inference is available with a visitor-provided key or through a bounded, invite-protected trial path. The showcases do not connect to a visitor's GitHub, Linear, Jira, calendar, or cloud account through OAuth.
 
-| Demo | What it is |
-|------|------------|
-| [**PromptShield / AgentSec**](https://promptshield-cyan.vercel.app) | Live rule-based prompt-injection scanner (the public AgentSec surface) |
-| **Self-Interview** | The site interviews David from verified facts only; you can jump in |
-| **Task-to-Flow** | Describe a repetitive task → an illustrative automation flow. Hours are assumption sliders, not measured results |
-| **Fit-Finder** | 3-tap quiz (industry × intent × urgency) → an illustrative role lens |
+| Showcase | Try it | What the sample demonstrates |
+|---------|--------|------------------------------|
+| [**StandupLiar**](https://standup-liar-showcase.vercel.app/) | [Open demo](https://standup-liar-showcase.vercel.app/) | Drafts a stand-up update from supplied GitHub activity data; the public sample stays local and does not connect to GitHub. |
+| [**MeetingReceipt**](https://meeting-receipt-showcase.vercel.app/) | [Open demo](https://meeting-receipt-showcase.vercel.app/) | Turns meeting duration and attendee rates into a cost receipt, with optional AI commentary. |
+| [**VelocityTruth**](https://velocity-truth-showcase.vercel.app/) | [Open demo](https://velocity-truth-showcase.vercel.app/) | Explores DORA-style delivery and pull-request velocity signals using sample data. |
+| [**CloudShame**](https://cloud-shame-showcase.vercel.app/) | [Open demo](https://cloud-shame-showcase.vercel.app/) | Reviews cloud-cost exports supplied as files, including AWS CUR, GCP, or Azure CSV data. |
+| [**Spec.cop**](https://speccop-showcase.vercel.app/) | [Open demo](https://speccop-showcase.vercel.app/) | Compares a ticket with a code diff to surface scope mismatches. |
+| [**CruelDocs**](https://crueldocs-showcase.vercel.app/) | [Open demo](https://crueldocs-showcase.vercel.app/) | Produces a code and documentation quality review from a sample project. |
 
-Self-Interview, Task-to-Flow, and Fit-Finder ship on `/roles/<id>` and `/demos/<slug>`. Company links from applications use `/?c=<company>` (audience framing only — the page does not invent facts about the company).
+Other interactive portfolio pieces include [PromptShield / AgentSec](https://promptshield-cyan.vercel.app), [Self-Interview](https://davidpapp.dev/demos/self-interview/), [Task-to-Flow](https://davidpapp.dev/demos/task-to-flow/), and [Fit-Finder](https://davidpapp.dev/demos/rolefit-quiz/). Personal projects are prototypes and showcases; deployment does not imply a production customer integration.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
 
