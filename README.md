@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D1A,50:7C3AED,100:06B6D4&height=120&section=header" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D1A,50:7C3AED,100:06B6D4&height=120&section=header" alt="" width="100%" />
 
 <div align="center">
 
@@ -17,7 +17,7 @@ AI Solutions Developer at WEBINFORM IT Ltd and Econometrics and Data Science stu
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" alt="" width="100%" />
 
 ### About
 
@@ -27,7 +27,7 @@ AI Solutions Developer at WEBINFORM IT Ltd and Econometrics and Data Science stu
 - 📍 Based in the Rotterdam area, Netherlands — available for full-time work
 - 🛠️ Working primarily with Python and TypeScript, with public projects in Rust
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" alt="" width="100%" />
 
 ### Projects
 
@@ -38,7 +38,7 @@ AI Solutions Developer at WEBINFORM IT Ltd and Econometrics and Data Science stu
 | [**AgentSec Suite**](https://github.com/VoidArch-Labs/AgentSec) | Deployed AI-agent security governance suite combining deterministic runtime inspection, approval queues, PromptShield, MCP Guard, AgentMap, integration guides, and an optional copilot interface | Next.js · TypeScript · Prisma · Vitest |
 | [**saas-core**](https://github.com/VoidArch-Labs/saas-core) | Supporting modular SaaS factory with a module registry, presets, environment planning, generated contracts, dry-run scaffolding, and a reference application | Next.js · TypeScript · Prisma · GitHub Actions |
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" alt="" width="100%" />
 
 ### Hosted product showcases
 
@@ -55,42 +55,42 @@ Six independently hosted product showcases are available to try. Their public sa
 
 Other interactive portfolio pieces include [PromptShield / AgentSec](https://promptshield-cyan.vercel.app), [Self-Interview](https://davidpapp.dev/demos/self-interview/), [Task-to-Flow](https://davidpapp.dev/demos/task-to-flow/), and [Fit-Finder](https://davidpapp.dev/demos/rolefit-quiz/). Personal projects are prototypes and showcases; deployment does not imply a production customer integration.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" alt="" width="100%" />
 
-### Lab (private)
+### Lab projects
 
-Recent private lab work — source on request, not claimed as production:
+Experimental work, not claimed as production:
 
-- **Unclickbaiter** — transcript-grounded YouTube title rewrite + thumbnail-honesty spec (heuristic or local LLM; no paid APIs)
-- **CS2 sticker craft optimizer** — search sticker placement/scale/rotation/wear; heuristic or local VLM scoring
-- **Active Companion** — local meeting listener → retrieval cheat-sheet UI (citations or explicit gaps)
+- **Unclickbaiter** — transcript-grounded YouTube title rewrite + thumbnail-honesty spec (heuristic or local LLM; no paid APIs). Private source on request.
+- **CS2 sticker craft optimizer** — search sticker placement/scale/rotation/wear; heuristic or local VLM scoring. Private source on request.
+- [**Active Companion**](https://github.com/pappdavid/active-companion) — transcript-driven meeting-assistant prototype with retrieved evidence cards. Its scripted browser replay uses fictional scenarios; no live microphone capture is wired into the UI.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" alt="" width="100%" />
 
 ### Tech Stack
 
 **Languages**
 <p>
-  <img src="https://skillicons.dev/icons?i=py,ts,js,rust&theme=dark" height="28" />
+  <img src="https://skillicons.dev/icons?i=py,ts,js,rust&theme=dark" alt="Python, TypeScript, JavaScript and Rust" height="28" />
 </p>
 
 **AI & Agent Systems**
 <p>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/LLM_Integrations-334155?style=flat-square&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" height="28" />
+  <img src="https://img.shields.io/badge/MCP-000000?style=flat-square&logoColor=white" alt="Model Context Protocol" height="28" />
+  <img src="https://img.shields.io/badge/LLM_Integrations-334155?style=flat-square&logoColor=white" alt="LLM integrations" height="28" />
 </p>
 
 **Web, Backend & Data**
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,fastapi,postgres,docker&theme=dark" height="28" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" height="28" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" height="28" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,fastapi,postgres,docker&theme=dark" alt="React, Next.js, Tailwind CSS, FastAPI, PostgreSQL and Docker" height="28" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" height="28" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" height="28" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" height="28" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" height="28" />
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" alt="" width="100%" />
 
 ### Reference Projects
 
@@ -113,4 +113,4 @@ Recent private lab work — source on request, not claimed as production:
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:7C3AED,100:0D0D1A&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:7C3AED,100:0D0D1A&height=120&section=footer" alt="" width="100%" />
