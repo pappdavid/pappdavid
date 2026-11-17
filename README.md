@@ -31,39 +31,18 @@ AI Solutions Developer at WEBINFORM IT Ltd and Econometrics and Data Science stu
 
 ### Projects
 
-| Project | Implemented scope | Stack |
-|---------|-------------------|-------|
-| [**VoidArch Context**](https://github.com/VoidArch-Labs/voidarch-context) | Principal flagship: local-first repository memory, search, code graph, durable project state, and token-budgeted context packs for AI coding agents | TypeScript · SurrealKV · Tree-sitter · ONNX |
-| [**VoidArch Studio**](https://github.com/VoidArch-Labs/voidarch-studio) | Active-development control room for coding-agent sessions with daemon-owned PTYs, worktree and session APIs, a localhost dashboard, deterministic safety hooks, and a Tauri desktop shell | TypeScript · Node.js · Rust · Tauri · xterm.js |
-| [**AgentSec Suite**](https://github.com/VoidArch-Labs/AgentSec) | Deployed AI-agent security governance suite combining deterministic runtime inspection, approval queues, PromptShield, MCP Guard, AgentMap, integration guides, and an optional copilot interface | Next.js · TypeScript · Prisma · Vitest |
-| [**saas-core**](https://github.com/VoidArch-Labs/saas-core) | Supporting modular SaaS factory with a module registry, presets, environment planning, generated contracts, dry-run scaffolding, and a reference application | Next.js · TypeScript · Prisma · GitHub Actions |
+| Project | What it is | Links |
+|---------|------------|-------|
+| **Client Studio** | Company assistant on a Supabase-backed workspace: answers questions from supplied text or Markdown with exact source excerpts, filters internal sources from the customer view on the server, and goes live only after explicit review, approval and activation as a frozen snapshot. Hosted source-excerpt prototype; the hosted demo makes no AI calls. Source is private. | [Live demo](https://client-studio-psi.vercel.app/) · [Case study](https://davidpapp.dev/projects#client-studio) |
+| **Active Companion** | Meeting-assistant lab in Python: a sliding context window, heuristic intent classification and TF-IDF retrieval turn a transcript into evidence cards with named sources. Scripted-replay lab with public MIT-licensed source. | [Source](https://github.com/pappdavid/active-companion) · [Replay](https://active-companion-replay.vercel.app/) |
+| **Faultline** | Executable browser model of retries and idempotency: lose the request before commit or the response after it, see the duplicate effect of a naive retry, then replay against an idempotent receiver. | [Live](https://davidpapp.dev/faultline/index.html) · [Source](https://github.com/pappdavid/portfolio-platform/tree/main/public/faultline) |
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" alt="" width="100%" />
+In active development:
 
-### Hosted product showcases
+- [**VoidArch Context**](https://github.com/VoidArch-Labs/voidarch-context): local-first repository memory, search, code graph and token-budgeted context packs for AI coding agents. Version 0.1, not yet a stable release.
+- [**VoidArch Studio**](https://github.com/VoidArch-Labs/voidarch-studio): local control room for coding-agent sessions, worktrees and safety hooks, with a Tauri desktop shell. Not distributed as a stable release.
 
-Six independently hosted product showcases are available to try. Their public sample workflows use synthetic or visitor-supplied data; optional AI inference is available with a visitor-provided key or through a bounded, invite-protected trial path. The showcases do not connect to a visitor's GitHub, Linear, Jira, calendar, or cloud account through OAuth.
-
-| Showcase | Try it | What the sample demonstrates |
-|---------|--------|------------------------------|
-| [**StandupLiar**](https://standup-liar-showcase.vercel.app/) | [Open demo](https://standup-liar-showcase.vercel.app/) | Drafts a stand-up update from supplied GitHub activity data; the public sample stays local and does not connect to GitHub. |
-| [**MeetingReceipt**](https://meeting-receipt-showcase.vercel.app/) | [Open demo](https://meeting-receipt-showcase.vercel.app/) | Turns meeting duration and attendee rates into a cost receipt, with optional AI commentary. |
-| [**VelocityTruth**](https://velocity-truth-showcase.vercel.app/) | [Open demo](https://velocity-truth-showcase.vercel.app/) | Explores DORA-style delivery and pull-request velocity signals using sample data. |
-| [**CloudShame**](https://cloud-shame-showcase.vercel.app/) | [Open demo](https://cloud-shame-showcase.vercel.app/) | Reviews cloud-cost exports supplied as files, including AWS CUR, GCP, or Azure CSV data. |
-| [**Spec.cop**](https://speccop-showcase.vercel.app/) | [Open demo](https://speccop-showcase.vercel.app/) | Compares a ticket with a code diff to surface scope mismatches. |
-| [**CruelDocs**](https://crueldocs-showcase.vercel.app/) | [Open demo](https://crueldocs-showcase.vercel.app/) | Produces a code and documentation quality review from a sample project. |
-
-Other interactive portfolio pieces include [PromptShield / AgentSec](https://promptshield-cyan.vercel.app), [Self-Interview](https://davidpapp.dev/demos/self-interview/), [Task-to-Flow](https://davidpapp.dev/demos/task-to-flow/), and [Fit-Finder](https://davidpapp.dev/demos/rolefit-quiz/). Personal projects are prototypes and showcases; deployment does not imply a production customer integration.
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" alt="" width="100%" />
-
-### Lab projects
-
-Experimental work, not claimed as production:
-
-- **Unclickbaiter** — transcript-grounded YouTube title rewrite + thumbnail-honesty spec (heuristic or local LLM; no paid APIs). Private source on request.
-- **CS2 sticker craft optimizer** — search sticker placement/scale/rotation/wear; heuristic or local VLM scoring. Private source on request.
-- [**Active Companion**](https://github.com/pappdavid/active-companion) — transcript-driven meeting-assistant prototype with retrieved evidence cards. Its scripted browser replay uses fictional scenarios; no live microphone capture is wired into the UI.
+Other interactive pieces on the portfolio site: [Self-Interview](https://davidpapp.dev/demos/self-interview/), [Task-to-Flow](https://davidpapp.dev/demos/task-to-flow/) and [Fit-Finder](https://davidpapp.dev/demos/rolefit-quiz/). Personal projects are prototypes; deployment does not imply a production customer integration.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:06B6D4&height=2" alt="" width="100%" />
 
@@ -83,7 +62,7 @@ Experimental work, not claimed as production:
 
 **Web, Backend & Data**
 <p>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,fastapi,postgres,docker&theme=dark" alt="React, Next.js, Tailwind CSS, FastAPI, PostgreSQL and Docker" height="28" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,postgres,docker&theme=dark" alt="React, Next.js, Tailwind CSS, PostgreSQL and Docker" height="28" />
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" height="28" />
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase" height="28" />
   <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" height="28" />
@@ -96,10 +75,9 @@ Experimental work, not claimed as production:
 
 <div align="center">
 
-[![VoidArch Context](https://img.shields.io/badge/VoidArch_Context-Local--First_Context_Engine-7C3AED?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/voidarch-context)
-[![VoidArch Studio](https://img.shields.io/badge/VoidArch_Studio-Agent_Orchestration-06B6D4?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/voidarch-studio)
-[![AgentSec Suite](https://img.shields.io/badge/AgentSec-Security_Governance_Suite-DC2626?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/AgentSec)
-[![saas-core](https://img.shields.io/badge/saas--core-Product_Factory-2563EB?style=flat-square&logoColor=white)](https://github.com/VoidArch-Labs/saas-core)
+[![Client Studio](https://img.shields.io/badge/Client_Studio-Source--excerpt_assistant-7C3AED?style=flat-square&logoColor=white)](https://client-studio-psi.vercel.app/)
+[![Active Companion](https://img.shields.io/badge/Active_Companion-Retrieval_lab-06B6D4?style=flat-square&logoColor=white)](https://github.com/pappdavid/active-companion)
+[![Faultline](https://img.shields.io/badge/Faultline-Idempotency_model-2563EB?style=flat-square&logoColor=white)](https://davidpapp.dev/faultline/index.html)
 
 </div>
 
