@@ -35,7 +35,7 @@ AI Solutions Developer at WEBINFORM IT Ltd and Econometrics and Data Science stu
 |---------|------------|-------|
 | **Client Studio** | Company assistant on a Supabase-backed workspace: answers questions from supplied text or Markdown with exact source excerpts, filters internal sources from the customer view on the server, and goes live only after explicit review, approval and activation as a frozen snapshot. Hosted source-excerpt prototype; the hosted demo makes no AI calls. Source is private. | [Live demo](https://client-studio-psi.vercel.app/) · [Case study](https://davidpapp.dev/projects#client-studio) |
 | **Active Companion** | Meeting-assistant lab in Python: a sliding context window, heuristic intent classification and TF-IDF retrieval turn a transcript into evidence cards with named sources. Scripted-replay lab with public MIT-licensed source. | [Source](https://github.com/pappdavid/active-companion) · [Replay](https://active-companion-replay.vercel.app/) |
-| **Faultline** | Executable browser model of retries and idempotency: lose the request before commit or the response after it, see the duplicate effect of a naive retry, then replay against an idempotent receiver. | [Live](https://davidpapp.dev/faultline/index.html) · [Source](https://github.com/pappdavid/portfolio-platform/tree/main/public/faultline) |
+| **Faultline** | Executable browser model of retries and idempotency: lose the request before commit or the response after it, see the duplicate effect of a naive retry, then replay against an idempotent receiver. | [Live](https://davidpapp.dev/faultline/index.html) · [Source](https://github.com/pappdavid/faultline) |
 
 In active development:
 
